@@ -1,3 +1,33 @@
+body > *{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#main-heading {
+font-size: 60px;  
+line-height: 44px;
+text-align: center;
+}
+
+#todo-list {
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#to {
+  margin-right: 30px;
+}
+
 .delete {
     margin-right: 5px;
   }
+
+#create-task {
+  text-align: center;
+  margin-top: 20px;
+}
